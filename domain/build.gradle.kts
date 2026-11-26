@@ -1,9 +1,14 @@
 plugins {
-    alias(libs.plugins.kotlin.android)
+    alias(libs.plugins.android.library)
 }
 
-kotlin {
-    jvmToolchain(11)
+android {
+    namespace = "com.bia.calora.domain"
+    compileSdk {
+        version = release(36) {
+            minorApiLevel = 1
+        }
+    }
 }
 
 dependencies {
