@@ -2,4 +2,10 @@
 <resources>
 
     <style name="Theme.Calora" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.Calora.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/calora_splash_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/calora_mark</item>
+        <item name="postSplashScreenTheme">@style/Theme.Calora</item>
+    </style>
 </resources>

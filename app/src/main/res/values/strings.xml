@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Calora</string>
     <string name="calculator_expression_label">Expression</string>
+    <string name="splash_tagline">Every calculation. One smart place.</string>
+    <string name="splash_engine_status">PRECISION CORE ENGINE</string>
+    <string name="splash_engine_footer">CALCORA ENGINE V4.9 · DETERMINISTIC COMPUTING</string>
+    <string name="splash_logo_description">Calcora calculator mark</string>
+    <string name="splash_loading_description">Loading Calcora</string>
 </resources>
