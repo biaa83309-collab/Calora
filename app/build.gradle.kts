@@ -5,11 +5,7 @@ plugins {
 
 android {
     namespace = "com.bia.calora"
-    compileSdk {
-        version = release(36) {
-            minorApiLevel = 1
-        }
-    }
+    compileSdk = 37
 
     defaultConfig {
         applicationId = "com.bia.calora"
@@ -38,6 +34,7 @@ android {
 }
 
 dependencies {
+    implementation(project(":designsystem"))
     implementation(project(":domain"))
     implementation(project(":data"))
     implementation(platform(libs.androidx.compose.bom))

@@ -7,7 +7,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.bia.calora.presentation.calculator.CalculatorScreen
 import com.bia.calora.presentation.calculator.CalculatorViewModel
-import com.bia.calora.ui.theme.CaloraTheme
+import com.bia.calora.designsystem.theme.CaloraTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

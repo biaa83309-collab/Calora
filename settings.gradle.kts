@@ -23,5 +23,5 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "Calora"
-include(":app", ":domain", ":data")
+include(":app", ":domain", ":data", ":designsystem")
  
